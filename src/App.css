@@ -1,10 +1,7 @@
 body{
   font-family: 'Barlow Condensed', sans-serif;
   font-family: 'Bebas Neue', cursive;
-  background-image: url('https://www.lifeder.com/wp-content/uploads/2021/10/clima-tipos-768x317.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+
 }
 .App {
   display: flex;
@@ -12,6 +9,7 @@ body{
   align-items: center;
   height: 100vh;
   flex-direction: column;
+  background-image: linear-gradient(to left bottom, #4440e9, #008dfe, #00b6d3, #8ed2bb, #e9ebe6);
 
 }
 .card{
